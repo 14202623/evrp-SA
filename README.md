@@ -1,6 +1,6 @@
 # Electric Vehicle Routing Problem — Simulated Annealing Solver
 
-This repository contains the C++ implementation developed for the the Electric Vehicle Routing Problem (EVRP). 
+This repository contains the C++ implementation developed for the Electric Vehicle Routing Problem (EVRP). 
 
 The project implements a Simulated Annealing (SA) heuristic for solving EVRP benchmark instances. The solver incorporates multiple neighbourhood operators and a feasibility repair mechanism to generate solutions satisfying the operational constraints of the EVRP. 
 
