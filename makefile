@@ -9,8 +9,8 @@ main.o: main.cpp
 heuristic.o: heuristic.cpp
 	g++ -c heuristic.cpp
 
-DBGP.o: EVRP.cpp
-	g++ -c DBGP.cpp
+EVRP.o: EVRP.cpp
+	g++ -c EVRP.cpp
 
 stats.o: stats.cpp
 	g++ -c stats.cpp
