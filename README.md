@@ -86,7 +86,7 @@ g++ -O3 -std=c++11 main.cpp EVRP.cpp heuristic.cpp stats.cpp -o EVRP.exe
 The experimental parameters are specified in 'config.txt'. The final Simulated Annealing configuration used in the ERP experiments:
 
     SA_INITIAL_TEMP 4000.0
-    SA_COOLING_RATE 0.9995
+    SA_COOLING_RATE 0.99985
     P_LOCAL_SWAP 0.30
     P_GLOBAL_SWAP 0.25
     P_2OPT 0.15
@@ -98,7 +98,7 @@ The experimental parameters are specified in 'config.txt'. The final Simulated A
 # Running the Solver
 After compilation, the executable can be run on an EVRP benchmark instance. For example:
 
-    ./data/E-n33-k4.evrp
+    ./EVRP.exe data/E-n33-k4.evrp
 
 The solver generates the solution and statistical output required for the experimental analysis. For the benchmark evaluation reported in the ERP, each instance was evaluated using 21 independent runs.
 
